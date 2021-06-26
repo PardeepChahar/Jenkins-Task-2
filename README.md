@@ -94,3 +94,53 @@ Jenkins job output-
 
 Lets open jenkins on browser(port is 8280)
 ![image](https://user-images.githubusercontent.com/75135128/123521245-1729f000-d6d3-11eb-9a46-3e17a66879a1.png)
+After login-
+![image](https://user-images.githubusercontent.com/75135128/123523109-4c3c3f80-d6df-11eb-97c5-9ff6b1417f54.png)
+
+
+This Task (Task 2) is given by Mr. Vimal Daga (LinuxWorld Informatics Pvt. Ltd.) for issuing the certificate for the Research Based Jenkins Training
+
+
+
+*********************************************************************************************************
+
+
+
+# Task 2, Subtask 3
+
+## Problem:
+Create a job chain of job1, job2, job3, and job4 using build pipeline plugin in jenkins
+
+## Solution:
+
+1. Installl build pipeline plugin
+2. Create job 1,2,3 & 4
+3. Create a job chain of these 4 jobs 
+
+
+### Lets start with setup
+
+1 Installl build pipeline plugin
+![image](https://user-images.githubusercontent.com/75135128/123524319-04b9b180-d6e7-11eb-8e06-0f667f2ae5c5.png)
+
+2 Create 4 jobes
+Check Build after other projects are built (Projects to watch: give job name to be build before this)
+
+![image](https://user-images.githubusercontent.com/75135128/123524253-9674ef00-d6e6-11eb-9c64-b9367b7363fe.png)
+
+job 1
+![image](https://user-images.githubusercontent.com/75135128/123524099-adffa800-d6e5-11eb-8b1e-fa5a29fb641e.png)
+
+job 2
+![image](https://user-images.githubusercontent.com/75135128/123524111-ba840080-d6e5-11eb-93e9-1aeedf7de6db.png)
+
+job 3
+![image](https://user-images.githubusercontent.com/75135128/123524128-c8d21c80-d6e5-11eb-816f-ffb08fc5ec62.png)
+
+job 4
+![image](https://user-images.githubusercontent.com/75135128/123524137-d4bdde80-d6e5-11eb-88dc-9a6a585ffd3c.png)
+
+Trigger build pipeline
+![image](https://user-images.githubusercontent.com/75135128/123524160-16e72000-d6e6-11eb-99e6-e476f50db9b2.png)
+
+
